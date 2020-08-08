@@ -1,0 +1,26 @@
+.title {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.wrapperArrow {
+}
+.newsArrow {
+  transform: rotate(90deg);
+}
+.newsArrowActive {
+  transform: rotate(270deg);
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  border-right: 1px solid black;
+  padding: 10px;
+}
+
+.dropDownNews {
+  padding-left: 20px;
+}

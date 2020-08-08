@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+.elems {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 20px;
+  width: 100%;
+}
+.elem div {
+  /* padding-top: 20px; */
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: block;
+  }
+  .elems {
+    display: block;
+  }
+  .elem div {
+    padding-top: 0px;
+  }
+}

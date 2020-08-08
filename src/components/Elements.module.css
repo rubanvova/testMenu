@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+.elems {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 20px;
+  width: 100%;
+}
+.elem div {
+  padding-top: 20px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* @media (max-width: 1161px) {
+  .buttons {
+    display: none;
+  }
+} */
