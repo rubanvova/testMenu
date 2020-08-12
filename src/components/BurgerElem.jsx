@@ -8,7 +8,7 @@ const BurgerElem = ({ title, body, onClick, isOpen }) => {
   return (
     <div className="scroll">
       <div className={styles.box}>
-        <a href="#" className={styles.title}>
+        <a href="##" className={styles.title}>
           {title}
         </a>
         <div className={styles.wrapperArrow}>
