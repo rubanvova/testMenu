@@ -10,6 +10,14 @@
   width: 100%;
 }
 
+.podMenu {
+  transition: 1s;
+}
+
+.showElem {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .wrapper {
     display: block;
@@ -19,5 +27,8 @@
   }
   .elem div {
     padding-top: 0px;
+  }
+  .showElem {
+    display: initial;
   }
 }

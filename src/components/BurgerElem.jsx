@@ -4,14 +4,15 @@ import classnames from "classnames";
 
 import styles from "./BurgerElem.module.css";
 
-const BurgerElem = ({ title, body, onClick, isOpen }) => {
+const BurgerElem = ({ title, body, onClick, isOpen, arrowOff }) => {
+  const arrow = arrowOff ? "none" : "";
   return (
     <div className="scroll">
       <div className={styles.box}>
         <a href="##" className={styles.title}>
           {title}
         </a>
-        <div className={styles.wrapperArrow}>
+        <div className={styles.wrapperArrow} style={{ display: arrow }}>
           <img
             src="https://image.flaticon.com/icons/png/512/130/130882.png"
             className={classnames(styles.newsArrow, {

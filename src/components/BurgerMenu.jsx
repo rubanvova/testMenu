@@ -31,18 +31,23 @@ const BurgerMenu = () => {
 
   return (
     <div id="box" className={styles.boxMenu}>
+      <BurgerElem arrowOff title="Каталог" />
       <BurgerElem
+        title="Новости"
         onClick={onClickOne}
         isOpen={0 === activeMenu}
-        title="Каталог"
-        body={BodyDropDownOne()}
+        body={<BodyDropDownOne />}
       />
       <BurgerElem
         onClick={onClickTwo}
         isOpen={1 === activeMenu}
-        title="Новости"
-        body={BodyDropDownTwo()}
+        title="Автобарахолка"
+        body={<BodyDropDownTwo />}
       />
+      <BurgerElem arrowOff title="Дома и квартиры" />
+      <BurgerElem arrowOff title="Услуги" />
+      <BurgerElem arrowOff title="Барахолка" />
+      <BurgerElem arrowOff title="Форум" />
     </div>
   );
 };

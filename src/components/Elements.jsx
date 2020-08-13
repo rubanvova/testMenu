@@ -9,8 +9,11 @@ const Elements = () => {
   return (
     <div className={styles.buttons}>
       <DropDownButton title="Каталог" />
-      <DropDownButton title="Новости" body={BodyDropDownOne()} />
-      <DropDownButton title="Автобарахолка" body={BodyDropDownTwo()} />
+      <DropDownButton title="Новости" body={<BodyDropDownOne visibleBody />} />
+      <DropDownButton
+        title="Автобарахолка"
+        body={<BodyDropDownTwo visibleBody />}
+      />
       <DropDownButton title="Дома и квартиры" />
       <DropDownButton title="Услуги" />
       <DropDownButton title="Барахолка" />
