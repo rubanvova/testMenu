@@ -8,7 +8,6 @@ export const BodyDropDownOne = ({ visibleBody }) => {
 
   const onClickOne = (value) => {
     setActive(value);
-    console.log(value);
   };
 
   const One = () => (
@@ -109,7 +108,6 @@ export const BodyDropDownTwo = ({ visibleBody }) => {
 
   const onClickOne = (value) => {
     setActive(value);
-    console.log(value);
   };
 
   const podMenu = (active) => {

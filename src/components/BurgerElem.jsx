@@ -7,7 +7,7 @@ import styles from "./BurgerElem.module.css";
 const BurgerElem = ({ title, body, onClick, isOpen, arrowOff }) => {
   const arrow = arrowOff ? "none" : "";
   return (
-    <div className="scroll">
+    <div>
       <div className={styles.box}>
         <a href="##" className={styles.title}>
           {title}
